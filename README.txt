@@ -31,7 +31,7 @@ I specialize in:
 
 I hold a **Master's in Business Analytics** from the **University of North Texas**, which keeps my approach grounded in evidence rather than guesswork.
 
-Outside the corporate world, I founded and led **[Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)** (2019–2023), an events & startup-incubation venture in Hyderabad, handling vendor negotiation, event delivery, and partnerships with government and academic institutions. I've also stayed close to the entrepreneurship and public-service side of business — strategy work with a state-run innovation initiative and a central-government-affiliated MSME chapter, helping early-stage teams go from idea to funded product.
+Outside the corporate world, Worked directly with the founders of  **[Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)** to understand their business requirements and target users. Translated those needs into scaled technical support for their growth and client acquisition goals — involving requirements gathering, stakeholder communication, and structuring information around business priorities, foundational skills for business analysis.
 
 If you're building a team that needs someone who can speak both "backlog" and "business case" — feel free to reach out.
 
