@@ -63,16 +63,16 @@
   }
   .nav-mark{font-family:var(--disp); font-weight:700; font-size:16px; display:flex; align-items:center; gap:9px; padding-left:6px;}
   .nav-mark .sq{width:9px; height:9px; border-radius:3px; background:var(--grad);}
-  .nav-links{display:flex; gap:4px; font-size:13.5px; font-weight:500;}
-  .nav-links a{color:var(--muted); padding:9px 14px; border-radius:99px; transition:all 0.2s ease;}
+  .nav-links{display:flex; gap:3px; font-size:13px; font-weight:500;}
+  .nav-links a{color:var(--muted); padding:9px 12px; border-radius:99px; transition:all 0.2s ease; white-space:nowrap;}
   .nav-links a:hover{color:var(--ink); background:var(--surface-2);}
   .nav-cta{
     font-size:13.5px; font-weight:600; padding:9px 18px; border-radius:99px;
-    background:var(--ink); color:#fff; transition:transform 0.2s ease, box-shadow 0.2s ease;
+    background:var(--ink); color:#fff; transition:transform 0.2s ease, box-shadow 0.2s ease; white-space:nowrap;
   }
   .nav-cta:hover{transform:translateY(-1px); box-shadow:var(--shadow-md);}
   .nav-toggle{display:none; background:none; border:none; color:var(--ink); cursor:pointer; padding:6px;}
-  @media (max-width:820px){
+  @media (max-width:980px){
     .nav-links{
       position:absolute; top:calc(100% + 10px); left:0; right:0;
       background:var(--surface); border:1px solid var(--border); border-radius:16px;
@@ -216,9 +216,33 @@
     padding:18px 22px; box-shadow:var(--shadow-sm);
   }
   .tl-date{font-family:var(--mono); font-size:11.5px; color:var(--indigo-dark); margin-bottom:6px; font-weight:500;}
+  .tl-top{display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:4px;}
+  .tl-duration{
+    font-family:var(--mono); font-size:10.5px; font-weight:600; color:var(--muted);
+    background:var(--surface-2); border-radius:99px; padding:3px 10px; white-space:nowrap; flex-shrink:0;
+  }
+  .tl-item.current .tl-duration{background:var(--grad-soft); color:var(--indigo-dark);}
   .tl-role{font-family:var(--disp); font-size:17px; font-weight:700;}
   .tl-co{color:var(--muted); font-size:14px; margin-top:2px;}
+  .tl-blurb{color:var(--muted); font-size:13.5px; line-height:1.6; margin-top:10px; padding-top:10px; border-top:1px dashed var(--border);}
   .tl-item.current .tl-card{border-color:rgba(99,102,241,0.3); box-shadow:var(--shadow-md);}
+
+  /* ---------- LEADERSHIP / EXTRACURRICULAR ---------- */
+  .lead-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:18px;}
+  @media (max-width:820px){ .lead-grid{grid-template-columns:1fr;} }
+  .lead-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--r-lg);
+    padding:26px; display:flex; gap:16px; box-shadow:var(--shadow-sm);
+    transition:transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+  .lead-card:hover{transform:translateY(-3px); box-shadow:var(--shadow-md); border-color:rgba(99,102,241,0.3);}
+  .lead-icon{
+    flex-shrink:0; width:42px; height:42px; border-radius:12px; background:var(--grad-soft);
+    display:flex; align-items:center; justify-content:center; color:var(--indigo-dark);
+  }
+  .lead-body h3{font-family:var(--body); font-size:15px; font-weight:700; margin-bottom:3px;}
+  .lead-body .lead-org{font-family:var(--mono); font-size:11.5px; color:var(--indigo-dark); margin-bottom:8px; display:block;}
+  .lead-body p{color:var(--muted); font-size:13.5px;}
 
   /* ---------- SKILLS ---------- */
   .skill-bento{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
@@ -298,6 +322,7 @@
     <div class="nav-links" id="navLinks">
       <a href="#about">About</a>
       <a href="#timeline">Timeline</a>
+      <a href="#leadership">Beyond Work</a>
       <a href="#skills">Toolkit</a>
       <a href="#certifications">Certs</a>
       <a href="#projects">Work</a>
@@ -370,15 +395,15 @@
     </div>
     <div class="bento reveal">
       <div class="bento-card bento-bio">
-        <p>My path runs <strong>Business Analyst → Business Specialist → Business Analyst / Product Owner → Technical Project Manager</strong>, across RealPage, Mastercard, and Bank of America. That means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.</p>
+        <p>My path runs <strong>Business Specialist → Business Analyst / Product Owner → Technical Project Manager &amp; Product Owner</strong>, across RealPage, Mastercard, and Bank of America. That means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.</p>
         <p>A <strong>Master's in Business Analytics from the University of North Texas</strong> keeps my approach grounded in evidence rather than guesswork. Day to day, that's end-to-end <strong>Agile/Scrum &amp; SAFe</strong> delivery, cross-functional stakeholder management across engineering, compliance, and business teams in regulated <strong>fintech and banking</strong> environments, and a data analytics lens on prioritization and <strong>credit risk</strong>.</p>
-        <p>Before any of that, I worked with founders of  <strong>Crave International</strong>, my first lesson in owning a program end-to-end. I've also stayed close to the entrepreneurship and public-service side of business, including strategy work with a state-run innovation initiative and a central-government-affiliated MSME chapter.</p>
+        <p>Before any of that, I worked directly with the founders of <strong>Crave International</strong> to understand their business requirements and target users — my first lesson in owning a program end-to-end. I've also stayed close to the entrepreneurship and public-service side of business, including strategy work with a state-run innovation initiative and a central-government-affiliated MSME chapter — more on that below.</p>
       </div>
       <div class="bento-card">
         <h3>Currently</h3>
-        <div class="fact-row"><span>Role</span><span>Technical Project Manager</span></div>
+        <div class="fact-row"><span>Role</span><span>TPM &amp; Product Owner</span></div>
         <div class="fact-row"><span>Company</span><span>Bank of America</span></div>
-        <div class="fact-row"><span>Since</span><span>Jan 2026</span></div>
+        <div class="fact-row"><span>Since</span><span>Aug 2024</span></div>
         <div class="fact-row"><span>Status</span><span class="status-chip"><span class="dot2"></span>Active</span></div>
       </div>
       <div class="bento-card">
@@ -394,9 +419,9 @@
 <section id="timeline">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow">Career</span>
-      <h2>Six years, one continuous thread</h2>
-      <p>Every role built on the last — from reading the data, to owning the backlog, to running the whole delivery.</p>
+      <span class="eyebrow">The Route</span>
+      <h2>Four stops, one throughline</h2>
+      <p>Reading the data, then owning the backlog, then running the whole delivery.</p>
     </div>
 
     <div class="tl reveal">
@@ -405,56 +430,99 @@
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-card">
-          <div class="tl-date">MAR 2019 — JUL 2020</div>
-          <div class="tl-role">Business Analyst</div>
-          <div class="tl-co">RealPage</div>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-card">
-          <div class="tl-date">AUG 2020 — AUG 2021</div>
+          <div class="tl-top"><div class="tl-date">MAR 2019 — AUG 2021</div><span class="tl-duration">2.4 YRS</span></div>
           <div class="tl-role">Business Specialist</div>
           <div class="tl-co">RealPage</div>
+          <p class="tl-blurb">Closed recurring process gaps with SQL/Excel-driven insight, tracked budgets and dependencies, and mentored new hires on requirements gathering.</p>
         </div>
       </div>
 
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-card">
-          <div class="tl-date">AUG 2021 — MAY 2023</div>
+          <div class="tl-top"><div class="tl-date">AUG 2021 — MAY 2023</div><span class="tl-duration">1.8 YRS</span></div>
           <div class="tl-role">M.S. Business Analytics</div>
           <div class="tl-co">University of North Texas</div>
+          <p class="tl-blurb">Built the analytical foundation — evidence over guesswork — that underlies every role since.</p>
         </div>
       </div>
 
       <div class="tl-item">
         <div class="tl-dot"></div>
         <div class="tl-card">
-          <div class="tl-date">JUN 2023 — JUL 2024</div>
+          <div class="tl-top"><div class="tl-date">JUN 2022 — JUL 2024</div><span class="tl-duration">2.1 YRS</span></div>
           <div class="tl-role">Business Analyst / Product Owner</div>
           <div class="tl-co">Mastercard</div>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-card">
-          <div class="tl-date">AUG 2024 — DEC 2025</div>
-          <div class="tl-role">Business Analyst / Product Owner</div>
-          <div class="tl-co">Bank of America</div>
+          <p class="tl-blurb">Owned backlog prioritization and stakeholder workshops across Mastercard's global payments business, using SQL to power profit-impact and advertising/web-metrics tracking.</p>
         </div>
       </div>
 
       <div class="tl-item current">
         <div class="tl-dot"></div>
         <div class="tl-card">
-          <div class="tl-date">JAN 2026 — PRESENT</div>
-          <div class="tl-role">Technical Project Manager</div>
+          <div class="tl-top"><div class="tl-date">AUG 2024 — PRESENT</div><span class="tl-duration">2.0 YRS</span></div>
+          <div class="tl-role">Technical Project Manager &amp; Product Owner</div>
           <div class="tl-co">Bank of America</div>
+          <p class="tl-blurb">Lead concurrent Agile/SAFe delivery across engineering, compliance, and business teams — running sprint ceremonies, risk logs, and Power BI/SQL reporting that keeps leadership decisions moving fast.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="leadership">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Beyond the Desk</span>
+      <h2>Leadership &amp; community</h2>
+      <p>Outside the corporate track, I've stayed close to entrepreneurship and public service.</p>
+    </div>
+    <div class="lead-grid reveal">
+
+      <div class="lead-card">
+        <div class="lead-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+        </div>
+        <div class="lead-body">
+          <h3>Vice-President — MSME Entrepreneurship</h3>
+          <span class="lead-org">Central Government Chapter · Regional</span>
+          <p>Volunteer leadership role supporting early-stage founders — from idea to funded product — working alongside local governing bodies. Through a tie-up with T-Hub Hyderabad, helped two founder teams develop and market their apps and secure patent rights.</p>
+        </div>
+      </div>
+
+      <div class="lead-card">
+        <div class="lead-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8 13 13.7l-3-3L4 17"/></svg>
+        </div>
+        <div class="lead-body">
+          <h3>Business Strategy Analyst</h3>
+          <span class="lead-org">T-Hub · State Government Initiative</span>
+          <p>Separate volunteer role focused on strategic planning, budgeting, scaling, and marketing — collaborating directly with T-Hub on large-scale funding across 30+ universities regionally.</p>
+        </div>
+      </div>
+
+      <div class="lead-card">
+        <div class="lead-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        </div>
+        <div class="lead-body">
+          <h3>Chair — IEEE Local Chapter</h3>
+          <span class="lead-org">Governing Body</span>
+          <p>Led the chapter's governing body with a focus on technical program and content leadership.</p>
+        </div>
+      </div>
+
+      <div class="lead-card">
+        <div class="lead-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="lead-body">
+          <h3>Member — National Service Scheme (NSS)</h3>
+          <span class="lead-org">Community Programs</span>
+          <p>Organized and led community initiatives, including girls'-education and empowerment drives in schools, national parade participation, work with the Election Commission board, and a government-school reform initiative.</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
