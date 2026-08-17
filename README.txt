@@ -131,7 +131,7 @@ Led requirements analysis and predictive modeling on the Kiva.org micro-lending 
 
 **🎪 [Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)**
 
-Worked directly with the founders of Crave International, a Hyderabad-based startup, to understand their business — target customers, services offered, and how they wanted to present themselves online. Translated those needs into a structured website covering service showcase, events, and contact/lead capture, built to support their growth and client acquisition goals. Involved requirements gathering, stakeholder communication, and structuring information around business priorities — foundational skills for business analysis.
+Worked directly with the founders of Crave International to understand their business requirements and target users. Translated those needs into scaled technical support for their growth and client acquisition goals — involving requirements gathering, stakeholder communication, and structuring information around business priorities, foundational skills for business analysis.
 
 `Requirements Gathering` `Stakeholder Communication` `Business Analysis`
 
