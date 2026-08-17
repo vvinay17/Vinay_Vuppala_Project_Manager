@@ -2,7 +2,7 @@
 
 <!-- Animated typing header -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=32&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Vinay+Vuppala;Technical+Project+Manager;Product+Owner+%7C+Business+Analyst;Agile+%2B+Data-Driven+Delivery" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=32&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Vinay+Vuppala;Technical+Project+Manager;Product+Owner+%7C+Agile%2FScrum+%26+SAFe;Fintech+%2B+Banking+%7C+Data-Driven+Delivery" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,18 +20,20 @@
 
 ### 👋 About Me
 
-I'm a **Technical Project Manager** with **6+ years of experience** spanning data analytics, business analysis, product ownership, and end-to-end project delivery. My career path — **Business Analyst → Business Specialist → Business Analyst/Product Owner → Technical Project Manager** — has given me a rare blend of *technical fluency* and *business/strategic thinking*.
+I'm a **Technical Project Manager** with **6+ years of experience** across Business Analyst, Product Owner, and Technical Project Manager roles at organizations like RealPage, Mastercard, and Bank of America. That path means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.
 
 I specialize in:
 
-- 🎯 **Agile & Scrum delivery** — sprint planning, backlog prioritization, stakeholder management
-- 📊 **Data-driven decision making** — predictive modeling, business insight generation, requirements analysis
-- 🔁 **Cross-functional leadership** — aligning engineering, business, and leadership stakeholders
-- 📈 **Process improvement & risk management** across enterprise-scale programs
+- 🎯 **End-to-end Agile/Scrum delivery** — from backlog grooming to release (Agile, Scrum & SAFe)
+- 🏦 **Regulated fintech/banking delivery** — cross-functional stakeholder management across engineering, compliance, and business teams
+- 📊 **A data analytics lens on prioritization and risk** — SQL, data analytics, process improvement
+- 🔁 **Credit risk management & data-driven delivery** in enterprise environments
 
-I hold a **Master's in Business Analytics** from the **University of North Texas**, which grounds every project I run in data — not just gut instinct.
+I hold a **Master's in Business Analytics** from the **University of North Texas**, which keeps my approach grounded in evidence rather than guesswork.
 
-Outside the corporate world, I founded and led **[Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)** (2019–2023), an events & startup-incubation venture in Hyderabad — my first hands-on lesson in end-to-end program ownership, vendor negotiation, and cross-functional team leadership.
+Outside the corporate world, I founded and led **[Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)** (2019–2023), an events & startup-incubation venture in Hyderabad, handling vendor negotiation, event delivery, and partnerships with government and academic institutions. I've also stayed close to the entrepreneurship and public-service side of business — strategy work with a state-run innovation initiative and a central-government-affiliated MSME chapter, helping early-stage teams go from idea to funded product.
+
+If you're building a team that needs someone who can speak both "backlog" and "business case" — feel free to reach out.
 
 </td>
 <td width="40%" valign="top">
@@ -42,9 +44,10 @@ Outside the corporate world, I founded and led **[Crave International](https://g
 Role:        Technical Project Manager
 Company:     Bank of America
 Location:    Charlotte, NC
-Focus:       Enterprise delivery, Agile
-             transformation, data-driven
-             stakeholder decision-making
+Focus:       Fintech & banking delivery,
+             SAFe/Agile transformation,
+             credit risk, data-driven
+             stakeholder decisions
 Education:   M.S. Business Analytics
              University of North Texas
 ```
@@ -77,23 +80,37 @@ Education:   M.S. Business Analytics
 
 <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=jirasoftware&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=scrumalliance&logoColor=white"/>
+<img src="https://img.shields.io/badge/SAFe-01A5E0?style=for-the-badge&logo=scaledagileframework&logoColor=white"/>
 <img src="https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
 <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white"/>
 
 **Data & Analytics**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Data%20Analytics-2E9EF7?style=for-the-badge&logo=googleanalytics&logoColor=white"/>
+<img src="https://img.shields.io/badge/Process%20Improvement-2E9EF7?style=for-the-badge&logo=trendmicro&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-**Cloud & Certifications**
+**Domain**
 
-<img src="https://img.shields.io/badge/AWS%20Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Profit%20Impact%20Metrics-2E9EF7?style=for-the-badge&logo=googleanalytics&logoColor=white"/>
-<img src="https://img.shields.io/badge/Advertising%20%26%20Web%20Metrics-2E9EF7?style=for-the-badge&logo=googleanalytics&logoColor=white"/>
+<img src="https://img.shields.io/badge/Fintech%20%26%20Banking-E31837?style=for-the-badge&logo=americanexpress&logoColor=white"/>
+<img src="https://img.shields.io/badge/Credit%20Risk%20Management-E31837?style=for-the-badge&logo=creditkarma&logoColor=white"/>
 
 </div>
+
+---
+
+### 🎓 Certifications
+
+| Certification | Provider |
+|---|---|
+| [Strategic Project Risk Management](https://www.linkedin.com/learning/strategic-project-risk-management) | LinkedIn Learning |
+| [Leading without Formal Authority](https://www.linkedin.com/learning/leading-without-formal-authority) | LinkedIn Learning |
+| [Project Resource Management](https://www.linkedin.com/learning/project-resource-management) | LinkedIn Learning |
+| [Agile Project Management with Jira Cloud: 1 Projects, Boards, and Issues](https://www.linkedin.com/learning/agile-project-management-with-jira-cloud-1-projects-boards-and-issues) | LinkedIn Learning |
+| [Project Management Foundations](https://www.linkedin.com/learning/project-management-foundations-15528659) | LinkedIn Learning |
+
+> *Links above go to the public course pages. Swap in your personal "Show credential" URLs (from the Licenses & Certifications section of your LinkedIn profile) if you'd like these to point straight to your verified certificates instead.*
 
 ---
 
@@ -114,9 +131,9 @@ Led requirements analysis and predictive modeling on the Kiva.org micro-lending 
 
 **🎪 [Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)**
 
-Founded and ran this events & startup-incubation venture end-to-end — owning vendor negotiation, event delivery, and a cross-functional team, in partnership with government and academic bodies.
+Worked directly with the founders of Crave International, a Hyderabad-based startup, to understand their business — target customers, services offered, and how they wanted to present themselves online. Translated those needs into a structured website covering service showcase, events, and contact/lead capture, built to support their growth and client acquisition goals. Involved requirements gathering, stakeholder communication, and structuring information around business priorities — foundational skills for business analysis.
 
-`Program Ownership` `Vendor Management` `Team Leadership`
+`Requirements Gathering` `Stakeholder Communication` `Business Analysis`
 
 </td>
 </tr>
@@ -127,7 +144,7 @@ Founded and ran this events & startup-incubation venture end-to-end — owning v
 
 Applied classification and regression techniques to real-world datasets — from data preparation through model evaluation — the same analytical foundation I use to turn raw data into business decisions.
 
-`Python` `Business Insight Generation`
+`Python` `Data Analytics`
 
 </td>
 <td width="50%">
@@ -164,8 +181,11 @@ A showcase of my project history and professional background, built and maintain
 <a href="https://www.linkedin.com/in/vinay-vuppala">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="mailto:vuppalavinay77@gmail.com">
+<a href="mailto:vvinay.tmp@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="tel:+19403544116">
+  <img src="https://img.shields.io/badge/Phone-%2B1%20(940)%20354--4116-2E9EF7?style=for-the-badge&logo=phone&logoColor=white"/>
 </a>
 <a href="https://vvinay17.github.io/">
   <img src="https://img.shields.io/badge/Portfolio-2E9EF7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
