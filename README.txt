@@ -20,7 +20,7 @@
 
 ### 👋 About Me
 
-I'm a **Technical Project Manager** with **6+ years of experience** across Business Analyst, Product Owner, and Technical Project Manager roles at organizations like RealPage, Mastercard, and Bank of America. That path means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.
+I'm a **Technical Project Manager** with **6+ years of experience** across Business Specialist, Business Analyst/Product Owner, and Technical Project Manager roles at organizations like RealPage, Mastercard, and Bank of America. That path means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.
 
 I specialize in:
 
@@ -31,7 +31,7 @@ I specialize in:
 
 I hold a **Master's in Business Analytics** from the **University of North Texas**, which keeps my approach grounded in evidence rather than guesswork.
 
-Outside the corporate world, Worked directly with the founders of  **[Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)** to understand their business requirements and target users. Translated those needs into scaled technical support for their growth and client acquisition goals — involving requirements gathering, stakeholder communication, and structuring information around business priorities, foundational skills for business analysis.
+Outside the corporate world, I worked directly with the founders of **[Crave International](https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL)** to understand their business requirements and target users. I translated those needs into scaled technical support for their growth and client acquisition goals — involving requirements gathering, stakeholder communication, and structuring information around business priorities, foundational skills for business analysis.
 
 If you're building a team that needs someone who can speak both "backlog" and "business case" — feel free to reach out.
 
@@ -42,8 +42,10 @@ If you're building a team that needs someone who can speak both "backlog" and "b
 
 ```yaml
 Role:        Technical Project Manager
+             & Product Owner
 Company:     Bank of America
 Location:    Charlotte, NC
+Since:       Aug 2024
 Focus:       Fintech & banking delivery,
              SAFe/Agile transformation,
              credit risk, data-driven
@@ -58,17 +60,32 @@ Education:   M.S. Business Analytics
 
 ---
 
-### 💼 Career Journey
+### 🧭 The Route So Far
 
-```
-2026 — Present   ●  Technical Project Manager, Bank of America
-2024 — 2025      ●  Business Analyst / Product Owner, Bank of America
-2023 — 2024      ●  Business Analyst / Product Owner, Mastercard
-2020 — 2021      ●  Business Specialist, RealPage
-2019 — 2020      ●  Business Analyst, RealPage
-2019 — 2023      ●  Founder, Crave International (events & startup incubation)
-2021 — 2023      ●  M.S. Business Analytics, University of North Texas
-```
+Four stops, one throughline — reading the data, then owning the backlog, then running the whole delivery.
+
+**`AUG 2024 → PRESENT`** &nbsp;·&nbsp; **Technical Project Manager & Product Owner** @ Bank of America
+Lead concurrent Agile/SAFe delivery across engineering, compliance, and business teams — running sprint ceremonies, risk logs, and Power BI/SQL reporting that keeps leadership decisions moving fast.
+
+**`JUN 2022 → JUL 2024`** &nbsp;·&nbsp; **Business Analyst / Product Owner** @ Mastercard
+Owned backlog prioritization and stakeholder workshops across Mastercard's global payments business, using SQL to power profit-impact and advertising/web-metrics tracking.
+
+**`AUG 2021 → MAY 2023`** &nbsp;·&nbsp; **M.S. Business Analytics** @ University of North Texas
+Built the analytical foundation — evidence over guesswork — that underlies every role since.
+
+**`MAR 2019 → AUG 2021`** &nbsp;·&nbsp; **Business Specialist** @ RealPage
+Closed recurring process gaps with SQL/Excel-driven insight, tracked budgets and dependencies, and mentored new hires on requirements gathering.
+
+---
+
+### 🌱 Leadership & Community
+
+Beyond my corporate roles, I've stayed close to the entrepreneurship and public-service side of business:
+
+- 🚀 **Vice-President — MSME Entrepreneurship (Central Government Chapter):** Regional volunteer leadership role supporting early-stage founders — from idea to funded product — working alongside local governing bodies. Through a tie-up with **T-Hub Hyderabad**, helped two founder teams develop and market their apps and secure patent rights.
+- 📊 **Business Strategy Analyst — T-Hub (State Government Initiative):** A separate volunteer role focused on strategic planning, budgeting, scaling, and marketing — collaborating directly with T-Hub on large-scale funding across 30+ universities regionally.
+- ⚡ **Chair — IEEE Local Chapter (Governing Body):** Led the chapter's governing body with a focus on technical and content leadership.
+- 🤝 **Member — National Service Scheme (NSS):** Organized and led community programs, including girls'-education and empowerment drives in schools, national parade participation, work with the Election Commission board, and a government-school reform initiative.
 
 ---
 
