@@ -4,294 +4,289 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vinay Vuppala — Technical Project Manager</title>
-<meta name="description" content="Vinay Vuppala — Technical Project Manager, Product Owner &amp; Business Analyst. Agile delivery, data-driven decision-making, cross-functional leadership.">
+<meta name="description" content="Vinay Vuppala — Technical Project Manager, Product Owner. Agile/SAFe delivery, fintech & banking, credit risk, data-driven decision-making.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#0B1220;
-    --panel:#121B2E;
-    --panel-2:#16213A;
-    --line:#26375A;
-    --line-soft:#1B2740;
-    --amber:#E8A33D;
-    --amber-dim:#B97B1F;
-    --paper:#EDEFF3;
-    --slate:#8CA0BE;
-    --slate-dim:#5A6E8C;
-    --radius:2px;
-    --disp: 'Space Grotesk', sans-serif;
-    --body: 'Inter', sans-serif;
-    --mono: 'IBM Plex Mono', monospace;
+    --bg:#FAFAFB;
+    --surface:#FFFFFF;
+    --surface-2:#F2F3F8;
+    --border:#E8EAF1;
+    --ink:#13151C;
+    --muted:#6B7280;
+    --muted-2:#9CA3AF;
+    --indigo:#6366F1;
+    --indigo-dark:#4F46E5;
+    --teal:#0FB8A9;
+    --grad:linear-gradient(135deg,#6366F1 0%,#0FB8A9 100%);
+    --grad-soft:linear-gradient(135deg,rgba(99,102,241,0.09),rgba(15,184,169,0.09));
+    --shadow-sm:0 1px 2px rgba(19,21,28,0.04);
+    --shadow-md:0 8px 24px rgba(19,21,28,0.07);
+    --shadow-lg:0 20px 48px rgba(19,21,28,0.12);
+    --r-sm:10px;
+    --r-md:16px;
+    --r-lg:24px;
+    --disp:'Bricolage Grotesque', sans-serif;
+    --body:'Inter', sans-serif;
+    --mono:'JetBrains Mono', monospace;
   }
-
   *{margin:0;padding:0;box-sizing:border-box;}
-
   html{scroll-behavior:smooth;}
-  @media (prefers-reduced-motion: reduce){
+  @media (prefers-reduced-motion:reduce){
     html{scroll-behavior:auto;}
     *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
   }
-
-  body{
-    background:var(--ink);
-    color:var(--paper);
-    font-family:var(--body);
-    line-height:1.6;
-    font-size:16px;
-    background-image:
-      linear-gradient(var(--line-soft) 1px, transparent 1px),
-      linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
-    background-size:48px 48px;
-    background-attachment:fixed;
-  }
-
+  body{background:var(--bg); color:var(--ink); font-family:var(--body); line-height:1.6; font-size:16px; -webkit-font-smoothing:antialiased;}
   a{color:inherit; text-decoration:none;}
-  ::selection{background:var(--amber); color:var(--ink);}
-
-  :focus-visible{
-    outline:2px solid var(--amber);
-    outline-offset:3px;
-  }
-
-  .wrap{
-    max-width:1180px;
-    margin:0 auto;
-    padding:0 32px;
-  }
-
-  h1,h2,h3{font-family:var(--disp); font-weight:600; letter-spacing:-0.01em;}
-
+  ::selection{background:var(--indigo); color:#fff;}
+  :focus-visible{outline:2px solid var(--indigo); outline-offset:3px; border-radius:4px;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 32px;}
+  h1,h2,h3{font-family:var(--disp); font-weight:700; letter-spacing:-0.02em; color:var(--ink);}
   .eyebrow{
-    font-family:var(--mono);
-    font-size:12px;
-    letter-spacing:0.14em;
-    text-transform:uppercase;
-    color:var(--amber);
+    display:inline-flex; align-items:center; gap:7px;
+    font-family:var(--mono); font-size:12.5px; letter-spacing:0.02em;
+    color:var(--indigo-dark); background:var(--grad-soft);
+    border:1px solid rgba(99,102,241,0.18);
+    padding:6px 14px; border-radius:99px;
   }
+  .eyebrow .pulse{width:6px; height:6px; border-radius:50%; background:var(--teal); box-shadow:0 0 0 3px rgba(15,184,169,0.18);}
 
   /* ---------- NAV ---------- */
-  nav{
-    position:fixed; top:0; left:0; right:0; z-index:50;
-    background:rgba(11,18,32,0.86);
-    backdrop-filter:blur(8px);
-    border-bottom:1px solid var(--line);
-  }
+  nav{position:fixed; top:0; left:0; right:0; z-index:50; padding-top:18px;}
   .nav-inner{
-    max-width:1180px; margin:0 auto; padding:0 32px;
-    height:64px; display:flex; align-items:center; justify-content:space-between;
+    max-width:1180px; margin:0 auto; padding:12px 20px;
+    display:flex; align-items:center; justify-content:space-between;
+    background:rgba(255,255,255,0.72); backdrop-filter:blur(14px);
+    border:1px solid var(--border); border-radius:99px; box-shadow:var(--shadow-sm);
   }
-  .nav-mark{
-    font-family:var(--mono); font-size:14px; letter-spacing:0.06em;
-    display:flex; align-items:center; gap:8px;
+  .nav-mark{font-family:var(--disp); font-weight:700; font-size:16px; display:flex; align-items:center; gap:9px; padding-left:6px;}
+  .nav-mark .sq{width:9px; height:9px; border-radius:3px; background:var(--grad);}
+  .nav-links{display:flex; gap:4px; font-size:13.5px; font-weight:500;}
+  .nav-links a{color:var(--muted); padding:9px 14px; border-radius:99px; transition:all 0.2s ease;}
+  .nav-links a:hover{color:var(--ink); background:var(--surface-2);}
+  .nav-cta{
+    font-size:13.5px; font-weight:600; padding:9px 18px; border-radius:99px;
+    background:var(--ink); color:#fff; transition:transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .nav-mark .dot{width:7px;height:7px;background:var(--amber); display:inline-block; border-radius:50%; box-shadow:0 0 8px var(--amber);}
-  .nav-links{display:flex; gap:36px; font-family:var(--mono); font-size:13px; letter-spacing:0.04em;}
-  .nav-links a{color:var(--slate); position:relative; padding:4px 0;}
-  .nav-links a:hover{color:var(--paper);}
-  .nav-links a::after{
-    content:''; position:absolute; left:0; bottom:0; width:0; height:1px; background:var(--amber);
-    transition:width 0.25s ease;
-  }
-  .nav-links a:hover::after{width:100%;}
-  .nav-toggle{display:none; background:none; border:1px solid var(--line); color:var(--paper); font-family:var(--mono); font-size:12px; padding:8px 10px; cursor:pointer;}
-
-  @media (max-width:760px){
+  .nav-cta:hover{transform:translateY(-1px); box-shadow:var(--shadow-md);}
+  .nav-toggle{display:none; background:none; border:none; color:var(--ink); cursor:pointer; padding:6px;}
+  @media (max-width:820px){
     .nav-links{
-      position:absolute; top:64px; left:0; right:0;
-      background:var(--panel); border-bottom:1px solid var(--line);
-      flex-direction:column; gap:0; max-height:0; overflow:hidden;
-      transition:max-height 0.3s ease;
+      position:absolute; top:calc(100% + 10px); left:0; right:0;
+      background:var(--surface); border:1px solid var(--border); border-radius:16px;
+      flex-direction:column; padding:8px; box-shadow:var(--shadow-md);
+      opacity:0; visibility:hidden; transform:translateY(-6px); transition:all 0.2s ease;
     }
-    .nav-links.open{max-height:320px;}
-    .nav-links a{padding:16px 32px; border-bottom:1px solid var(--line-soft); display:block;}
+    .nav-links.open{opacity:1; visibility:visible; transform:none;}
+    .nav-links a{padding:12px 16px; border-radius:10px;}
     .nav-toggle{display:block;}
+    .nav-cta{display:none;}
   }
 
   /* ---------- HERO ---------- */
-  header.hero{
-    position:relative;
-    padding:168px 0 96px;
-    overflow:hidden;
+  .hero{position:relative; padding:168px 0 100px; overflow:hidden;}
+  .hero-glow{
+    position:absolute; top:-160px; right:-160px; width:560px; height:560px;
+    background:radial-gradient(circle, rgba(99,102,241,0.16), transparent 70%);
+    filter:blur(10px); pointer-events:none;
   }
-  .crop{position:absolute; width:22px; height:22px; border-color:var(--amber-dim); opacity:0.7;}
-  .crop.tl{top:96px; left:32px; border-top:1px solid; border-left:1px solid;}
-  .crop.tr{top:96px; right:32px; border-top:1px solid; border-right:1px solid;}
-  @media (max-width:760px){ .crop{display:none;} }
+  .hero-glow-2{
+    position:absolute; bottom:-200px; left:-160px; width:480px; height:480px;
+    background:radial-gradient(circle, rgba(15,184,169,0.14), transparent 70%);
+    filter:blur(10px); pointer-events:none;
+  }
+  .hero-grid{display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center; position:relative;}
+  @media (max-width:980px){ .hero-grid{grid-template-columns:1fr; gap:60px;} }
 
-  .hero-grid{
-    display:grid;
-    grid-template-columns:1.5fr 1fr;
-    gap:56px;
-    align-items:end;
+  .hero h1{font-size:clamp(38px,5.2vw,60px); line-height:1.06; margin:20px 0 20px;}
+  .hero h1 .accent{
+    background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent;
   }
-  @media (max-width:900px){ .hero-grid{grid-template-columns:1fr;} }
-
-  .hero h1{
-    font-size:clamp(42px, 6.4vw, 74px);
-    line-height:1.02;
-    margin:18px 0 22px;
-  }
-  .hero p.lede{
-    font-size:18px; color:var(--slate); max-width:52ch; margin-bottom:36px;
-  }
-  .hero-cta{display:flex; gap:16px; flex-wrap:wrap;}
+  .hero p.lede{font-size:18px; color:var(--muted); max-width:46ch; margin-bottom:32px;}
+  .hero-cta{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:36px;}
   .btn{
-    font-family:var(--mono); font-size:13px; letter-spacing:0.04em;
-    padding:13px 22px; border:1px solid var(--line); transition:all 0.2s ease;
-    display:inline-flex; align-items:center; gap:8px;
+    font-family:var(--body); font-size:14.5px; font-weight:600;
+    padding:13px 24px; border-radius:99px; display:inline-flex; align-items:center; gap:8px;
+    transition:all 0.2s ease; border:1px solid transparent;
   }
-  .btn-primary{background:var(--amber); color:var(--ink); border-color:var(--amber); font-weight:600;}
-  .btn-primary:hover{background:transparent; color:var(--amber);}
-  .btn-ghost{color:var(--paper);}
-  .btn-ghost:hover{border-color:var(--amber); color:var(--amber);}
+  .btn-primary{background:var(--ink); color:#fff;}
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:var(--shadow-md);}
+  .btn-outline{border-color:var(--border); color:var(--ink); background:var(--surface);}
+  .btn-outline:hover{border-color:var(--indigo); color:var(--indigo-dark); transform:translateY(-2px); box-shadow:var(--shadow-sm);}
 
-  .charter{
-    border:1px solid var(--line);
-    background:var(--panel);
-    padding:22px 24px;
-    font-family:var(--mono);
-    font-size:13px;
+  .hero-stats{display:flex; gap:28px; flex-wrap:wrap;}
+  .hero-stat b{font-family:var(--disp); font-size:22px; display:block;}
+  .hero-stat span{font-size:12.5px; color:var(--muted-2); font-family:var(--mono);}
+
+  /* Kanban visual */
+  .kanban-shell{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--r-lg);
+    box-shadow:var(--shadow-lg); padding:22px; position:relative;
   }
-  .charter-head{
-    display:flex; justify-content:space-between; align-items:center;
-    border-bottom:1px solid var(--line); padding-bottom:12px; margin-bottom:14px;
-    color:var(--slate-dim); letter-spacing:0.1em; font-size:11px; text-transform:uppercase;
+  .kanban-shell::before{
+    content:''; position:absolute; inset:-1px; border-radius:var(--r-lg);
+    background:var(--grad); opacity:0.35; z-index:-1; filter:blur(18px);
   }
-  .charter-row{display:flex; justify-content:space-between; padding:7px 0; border-bottom:1px dashed var(--line-soft);}
-  .charter-row:last-child{border-bottom:none;}
-  .charter-row span:first-child{color:var(--slate);}
-  .charter-row span:last-child{text-align:right;}
-  .status-live{color:var(--amber);}
-  .status-live::before{content:'● '; }
+  .kanban-head{display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;}
+  .kanban-head .kh-title{font-family:var(--mono); font-size:12px; color:var(--muted-2); letter-spacing:0.04em;}
+  .kanban-head .kh-dots{display:flex; gap:5px;}
+  .kanban-head .kh-dots span{width:7px; height:7px; border-radius:50%; background:var(--border);}
+  .kanban{display:grid; grid-template-columns:repeat(3,1fr); gap:10px;}
+  .kcol{background:var(--surface-2); border-radius:var(--r-sm); padding:10px;}
+  .kcol-head{
+    display:flex; align-items:center; justify-content:space-between;
+    font-size:11px; font-weight:600; color:var(--muted); margin-bottom:8px; padding:0 2px;
+  }
+  .kcol-head .kcount{
+    background:var(--surface); border:1px solid var(--border); border-radius:99px;
+    padding:1px 7px; font-family:var(--mono); font-size:10px;
+  }
+  .kcard{
+    background:var(--surface); border:1px solid var(--border); border-radius:9px;
+    padding:9px 10px; margin-bottom:8px; box-shadow:var(--shadow-sm);
+    font-size:11.5px; font-weight:500; opacity:0; transform:translateY(8px);
+    animation:kcardIn 0.5s ease forwards;
+  }
+  .kcard:last-child{margin-bottom:0;}
+  .kcard .ktag{
+    display:inline-block; font-family:var(--mono); font-size:9px; padding:2px 6px;
+    border-radius:5px; margin-bottom:6px; font-weight:600;
+  }
+  .ktag.tag-a{background:rgba(99,102,241,0.12); color:var(--indigo-dark);}
+  .ktag.tag-b{background:rgba(15,184,169,0.14); color:#0A8F82;}
+  .ktag.tag-c{background:rgba(245,158,11,0.14); color:#B45309;}
+  .kcard.done{color:var(--muted-2); text-decoration:line-through; text-decoration-color:var(--border);}
+  .kcard .kcheck{
+    display:inline-flex; align-items:center; justify-content:center; width:14px; height:14px;
+    border-radius:50%; background:var(--teal); color:#fff; margin-right:5px; text-decoration:none;
+  }
+  @keyframes kcardIn{to{opacity:1; transform:none;}}
+  .kanban-foot{margin-top:14px; padding-top:14px; border-top:1px dashed var(--border);}
+  .kf-row{display:flex; justify-content:space-between; font-family:var(--mono); font-size:10.5px; color:var(--muted); margin-bottom:6px;}
+  .kf-bar{height:6px; background:var(--surface-2); border-radius:99px; overflow:hidden;}
+  .kf-fill{height:100%; width:0%; background:var(--grad); border-radius:99px; transition:width 1.4s cubic-bezier(.16,.8,.28,1);}
+  .kf-fill.in{width:72%;}
 
   /* ---------- SECTION SHARED ---------- */
-  section{padding:104px 0;}
-  .sec-head{margin-bottom:56px; max-width:60ch;}
-  .sec-head h2{font-size:clamp(28px,3.6vw,40px); margin-top:14px;}
-  .sec-head p{color:var(--slate); margin-top:14px; font-size:16px;}
-
-  .reveal{opacity:0; transform:translateY(18px); transition:opacity 0.6s ease, transform 0.6s ease;}
+  section{padding:100px 0;}
+  .sec-head{margin-bottom:48px; max-width:60ch;}
+  .sec-head h2{font-size:clamp(28px,3.4vw,38px); margin-top:12px;}
+  .sec-head p{color:var(--muted); margin-top:12px; font-size:16px;}
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity 0.6s ease, transform 0.6s ease;}
   .reveal.in{opacity:1; transform:none;}
 
-  /* ---------- ABOUT ---------- */
-  #about .about-grid{display:grid; grid-template-columns:1.4fr 1fr; gap:64px;}
-  @media (max-width:900px){ #about .about-grid{grid-template-columns:1fr;} }
-  #about p{color:var(--slate); margin-bottom:18px; font-size:16px; max-width:56ch;}
-  #about strong{color:var(--paper); font-weight:600;}
+  /* ---------- ABOUT (BENTO) ---------- */
+  .bento{display:grid; grid-template-columns:1.6fr 1fr; grid-template-rows:auto auto; gap:16px;}
+  @media (max-width:900px){ .bento{grid-template-columns:1fr;} }
+  .bento-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--r-lg);
+    padding:32px; box-shadow:var(--shadow-sm);
+  }
+  .bento-bio{grid-row:span 2;}
+  .bento-bio p{color:var(--muted); margin-bottom:16px; font-size:15.5px; max-width:58ch;}
+  .bento-bio strong{color:var(--ink); font-weight:600;}
+  .bento-card h3{font-family:var(--body); font-size:12.5px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted-2); margin-bottom:16px;}
+  .fact-row{display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid var(--border); font-size:13.5px;}
+  .fact-row:last-child{border-bottom:none;}
+  .fact-row span:first-child{color:var(--muted);}
+  .fact-row span:last-child{font-weight:600;}
+  .status-chip{display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:#0A8F82;}
+  .status-chip .dot2{width:6px; height:6px; border-radius:50%; background:var(--teal); box-shadow:0 0 0 3px rgba(15,184,169,0.18);}
 
-  .side-panel{border:1px solid var(--line); background:var(--panel);}
-  .side-panel .panel-title{
-    font-family:var(--mono); font-size:11px; letter-spacing:0.1em; text-transform:uppercase;
-    color:var(--slate-dim); padding:16px 20px; border-bottom:1px solid var(--line);
+  /* ---------- TIMELINE ---------- */
+  .tl{position:relative; padding-left:0;}
+  .tl-line{position:absolute; left:19px; top:8px; bottom:8px; width:2px; background:var(--border);}
+  .tl-line-fill{position:absolute; left:0; top:0; width:100%; height:0%; background:var(--grad); transition:height 1.6s cubic-bezier(.16,.8,.28,1);}
+  .tl-line-fill.in{height:100%;}
+  .tl-item{position:relative; padding-left:56px; padding-bottom:36px;}
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-dot{
+    position:absolute; left:11px; top:2px; width:18px; height:18px; border-radius:50%;
+    background:var(--surface); border:2px solid var(--border); z-index:2;
+    display:flex; align-items:center; justify-content:center; transition:border-color 0.4s ease, background 0.4s ease;
   }
-  .side-panel .panel-body{padding:20px;}
-  .fact{display:flex; justify-content:space-between; font-family:var(--mono); font-size:13px; padding:9px 0; border-bottom:1px dashed var(--line-soft);}
-  .fact:last-child{border-bottom:none;}
-  .fact span:first-child{color:var(--slate);}
-
-  /* ---------- TIMELINE / GANTT ---------- */
-  .gantt{border:1px solid var(--line); background:var(--panel); padding:28px 28px 20px;}
-  .gantt-scroll{overflow-x:auto; padding-bottom:6px;}
-  .gantt-inner{min-width:760px;}
-  .gantt-axis{
-    display:flex; font-family:var(--mono); font-size:11px; color:var(--slate-dim);
-    border-bottom:1px solid var(--line); padding-bottom:8px; margin-bottom:18px;
-    position:relative;
+  .tl-item.in .tl-dot{border-color:var(--indigo);}
+  .tl-item.current .tl-dot{background:var(--grad); border-color:transparent;}
+  .tl-item.current .tl-dot::after{content:''; position:absolute; inset:-5px; border-radius:50%; border:2px solid rgba(99,102,241,0.3); animation:tlpulse 2s infinite;}
+  @keyframes tlpulse{0%,100%{opacity:0.6; transform:scale(1);} 50%{opacity:0; transform:scale(1.4);}}
+  .tl-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--r-md);
+    padding:18px 22px; box-shadow:var(--shadow-sm);
   }
-  .gantt-axis span{position:absolute; transform:translateX(-50%);}
-  .gantt-row{margin-bottom:22px;}
-  .gantt-label{
-    display:flex; justify-content:space-between; align-items:baseline;
-    font-family:var(--mono); font-size:12.5px; margin-bottom:8px; gap:12px;
-  }
-  .gantt-label .role{color:var(--paper); font-weight:500;}
-  .gantt-label .role .co{color:var(--slate);}
-  .gantt-label .dates{color:var(--slate-dim); white-space:nowrap;}
-  .gantt-track{position:relative; height:10px; background:var(--line-soft);}
-  .gantt-bar{
-    position:absolute; top:0; height:100%; background:var(--slate-dim);
-    transform-origin:left; transform:scaleX(0); transition:transform 1s cubic-bezier(.16,.8,.28,1);
-  }
-  .gantt-row.in .gantt-bar{transform:scaleX(1);}
-  .gantt-bar.current{
-    background:linear-gradient(90deg, var(--amber-dim), var(--amber));
-    box-shadow:0 0 14px rgba(232,163,61,0.45);
-  }
-  .gantt-bar.current::after{
-    content:''; position:absolute; right:-3px; top:-3px; width:16px; height:16px;
-    border-radius:50%; background:var(--amber); box-shadow:0 0 0 4px rgba(232,163,61,0.18);
-    animation:pulse 2s infinite;
-  }
-  @keyframes pulse{
-    0%,100%{box-shadow:0 0 0 4px rgba(232,163,61,0.18);}
-    50%{box-shadow:0 0 0 8px rgba(232,163,61,0.05);}
-  }
+  .tl-date{font-family:var(--mono); font-size:11.5px; color:var(--indigo-dark); margin-bottom:6px; font-weight:500;}
+  .tl-role{font-family:var(--disp); font-size:17px; font-weight:700;}
+  .tl-co{color:var(--muted); font-size:14px; margin-top:2px;}
+  .tl-item.current .tl-card{border-color:rgba(99,102,241,0.3); box-shadow:var(--shadow-md);}
 
   /* ---------- SKILLS ---------- */
-  .skill-groups{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
-  @media (max-width:820px){ .skill-groups{grid-template-columns:1fr;} }
-  .skill-group{background:var(--panel); padding:26px;}
-  .skill-group h3{
-    font-family:var(--mono); font-size:12px; letter-spacing:0.08em; text-transform:uppercase;
-    color:var(--amber); margin-bottom:18px; font-weight:600;
-  }
-  .chip-list{display:flex; flex-wrap:wrap; gap:8px;}
-  .chip{
-    font-family:var(--mono); font-size:12.5px; padding:7px 12px;
-    border:1px solid var(--line); color:var(--slate);
-    transition:border-color 0.2s ease, color 0.2s ease;
-  }
-  .chip:hover{border-color:var(--amber); color:var(--paper);}
-
-  /* ---------- CERTIFICATIONS ---------- */
-  .cert-panel{border:1px solid var(--line); background:var(--panel); padding:32px;}
-  .cert-para{color:var(--slate); font-size:15.5px; line-height:1.8;}
-  .cert-para a{color:var(--amber); text-decoration:none; border-bottom:1px dotted var(--amber-dim);}
-  .cert-para a:hover{color:var(--paper); border-bottom-color:var(--paper);}
-  .cert-icon-row{margin-top:28px; padding-top:24px; border-top:1px dashed var(--line-soft); display:flex; justify-content:center;}
-  .icon-badge{
-    display:inline-flex; align-items:center; gap:9px;
-    font-family:var(--mono); font-size:13px; letter-spacing:0.04em;
-    padding:12px 22px; border:1px solid var(--line); color:var(--paper);
+  .skill-bento{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
+  @media (max-width:820px){ .skill-bento{grid-template-columns:1fr;} }
+  .skill-card{background:var(--surface); border:1px solid var(--border); border-radius:var(--r-lg); padding:26px; box-shadow:var(--shadow-sm);}
+  .skill-card h3{font-family:var(--body); font-size:12.5px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:var(--indigo-dark); margin-bottom:16px;}
+  .pill-list{display:flex; flex-wrap:wrap; gap:8px;}
+  .pill{
+    font-size:13px; font-weight:500; padding:7px 13px; border-radius:99px;
+    background:var(--surface-2); color:var(--ink); border:1px solid transparent;
     transition:all 0.2s ease;
   }
-  .icon-badge:hover{border-color:var(--amber); color:var(--amber);}
-  .icon-badge svg{flex-shrink:0;}
+  .pill:hover{border-color:var(--indigo); background:#fff; color:var(--indigo-dark);}
 
-  .btn.icon-btn{display:inline-flex; align-items:center; gap:8px;}
-  .btn.icon-btn svg{flex-shrink:0;}
+  /* ---------- CERTIFICATIONS ---------- */
+  .cert-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--r-lg);
+    padding:36px; box-shadow:var(--shadow-sm); text-align:center;
+  }
+  .cert-card p{color:var(--muted); font-size:16px; max-width:64ch; margin:0 auto 24px;}
+  .cert-badge{
+    display:inline-flex; align-items:center; gap:9px; font-weight:600; font-size:14px;
+    padding:12px 24px; border-radius:99px; background:var(--grad); color:#fff;
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .cert-badge:hover{transform:translateY(-2px); box-shadow:0 10px 24px rgba(99,102,241,0.35);}
 
   /* ---------- PROJECTS ---------- */
-  .proj-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
+  .proj-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:18px;}
   @media (max-width:820px){ .proj-grid{grid-template-columns:1fr;} }
-  .proj-card{background:var(--panel); padding:30px; display:flex; flex-direction:column; gap:16px;}
-  .proj-top{display:flex; justify-content:space-between; align-items:flex-start; gap:12px;}
-  .proj-card h3{font-size:20px;}
-  .proj-num{font-family:var(--mono); font-size:12px; color:var(--slate-dim);}
-  .spec-table{font-family:var(--mono); font-size:12.5px; border-top:1px dashed var(--line-soft); padding-top:12px;}
-  .spec-row{display:flex; gap:10px; padding:4px 0; color:var(--slate);}
-  .spec-row b{color:var(--slate-dim); min-width:74px; font-weight:500;}
-  .proj-card p.desc{color:var(--slate); font-size:14.5px;}
-  .proj-link{
-    margin-top:auto; font-family:var(--mono); font-size:12.5px; color:var(--amber);
-    display:inline-flex; align-items:center; gap:6px; width:fit-content;
+  .proj-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--r-lg);
+    padding:28px; display:flex; flex-direction:column; gap:14px;
+    transition:transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    position:relative; overflow:hidden;
   }
-  .proj-link:hover{text-decoration:underline;}
+  .proj-card:hover{transform:translateY(-4px); box-shadow:var(--shadow-md); border-color:rgba(99,102,241,0.3);}
+  .proj-top{display:flex; justify-content:space-between; align-items:flex-start; gap:10px;}
+  .proj-card h3{font-size:19px;}
+  .proj-idx{
+    font-family:var(--mono); font-size:11px; color:var(--muted-2);
+    background:var(--surface-2); border-radius:99px; padding:3px 9px;
+  }
+  .proj-card p.desc{color:var(--muted); font-size:14.5px;}
+  .proj-tags{display:flex; gap:6px; flex-wrap:wrap;}
+  .proj-tag{font-size:11.5px; font-family:var(--mono); color:var(--indigo-dark); background:rgba(99,102,241,0.08); padding:4px 9px; border-radius:6px;}
+  .proj-link{margin-top:auto; font-size:13.5px; font-weight:600; color:var(--ink); display:inline-flex; align-items:center; gap:6px;}
+  .proj-link svg{transition:transform 0.2s ease;}
+  .proj-card:hover .proj-link svg{transform:translateX(3px);}
 
   /* ---------- CONTACT / FOOTER ---------- */
-  footer{
-    border-top:1px solid var(--line);
-    padding:88px 0 48px;
+  footer{margin:0 20px 20px; border-radius:32px; overflow:hidden; position:relative; background:#0E1015;}
+  .foot-glow{position:absolute; top:-140px; left:50%; transform:translateX(-50%); width:640px; height:400px; background:radial-gradient(circle, rgba(99,102,241,0.35), transparent 70%); pointer-events:none;}
+  .foot-inner{position:relative; padding:96px 48px 48px; text-align:center;}
+  footer h2{color:#fff; font-size:clamp(30px,4.4vw,46px); max-width:18ch; margin:0 auto 28px;}
+  .foot-links{display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-bottom:64px;}
+  .foot-btn{
+    display:inline-flex; align-items:center; gap:9px; padding:13px 22px; border-radius:99px;
+    font-size:14px; font-weight:600; transition:all 0.2s ease;
   }
-  footer h2{font-size:clamp(30px,4.4vw,48px); max-width:16ch; margin-bottom:24px;}
-  .footer-grid{display:flex; justify-content:space-between; align-items:flex-end; gap:32px; flex-wrap:wrap;}
-  .footer-links{display:flex; gap:14px; flex-wrap:wrap;}
+  .foot-btn-primary{background:#fff; color:#0E1015;}
+  .foot-btn-primary:hover{transform:translateY(-2px); box-shadow:0 10px 24px rgba(255,255,255,0.15);}
+  .foot-btn-ghost{border:1px solid rgba(255,255,255,0.16); color:#fff;}
+  .foot-btn-ghost:hover{border-color:rgba(255,255,255,0.4); background:rgba(255,255,255,0.06);}
   .foot-fine{
-    margin-top:64px; padding-top:24px; border-top:1px solid var(--line-soft);
-    display:flex; justify-content:space-between; color:var(--slate-dim);
-    font-family:var(--mono); font-size:12px; flex-wrap:wrap; gap:10px;
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
+    padding-top:24px; border-top:1px solid rgba(255,255,255,0.1);
+    color:rgba(255,255,255,0.45); font-family:var(--mono); font-size:11.5px;
   }
 </style>
 </head>
@@ -299,41 +294,69 @@
 
 <nav>
   <div class="nav-inner">
-    <div class="nav-mark"><span class="dot"></span>VV / PORTFOLIO</div>
+    <div class="nav-mark"><span class="sq"></span>Vinay Vuppala</div>
     <div class="nav-links" id="navLinks">
       <a href="#about">About</a>
       <a href="#timeline">Timeline</a>
       <a href="#skills">Toolkit</a>
       <a href="#certifications">Certs</a>
       <a href="#projects">Work</a>
-      <a href="#contact">Contact</a>
     </div>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">MENU</button>
+    <a class="nav-cta" href="#contact">Get in touch</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
   </div>
 </nav>
 
 <header class="hero">
-  <div class="crop tl"></div>
-  <div class="crop tr"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow-2"></div>
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <div class="eyebrow">Technical Project Manager — Fintech &amp; Banking — Charlotte, NC</div>
-        <h1>Vinay<br>Vuppala</h1>
-        <p class="lede">I plan the work, then I ship it. Six years turning ambiguous requirements into delivered products — as a business analyst, a product owner, and now a technical project manager in regulated fintech and banking.</p>
+        <span class="eyebrow"><span class="pulse"></span>Open to PM &amp; Product Owner conversations</span>
+        <h1>Delivery that ships <span class="accent">on schedule</span>, backed by data.</h1>
+        <p class="lede">I'm Vinay — a Technical Project Manager turning ambiguous requirements into shipped fintech products. Six years across Business Analyst, Product Owner, and TPM roles, with an Agile/SAFe playbook and a data-first lens on risk.</p>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="#timeline">View the timeline</a>
-          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          <a class="btn btn-primary" href="#timeline">See the journey</a>
+          <a class="btn btn-outline" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><b>6+ yrs</b><span>DELIVERY EXPERIENCE</span></div>
+          <div class="hero-stat"><b>3</b><span>ENTERPRISE ORGS</span></div>
+          <div class="hero-stat"><b>22</b><span>CERTIFICATIONS</span></div>
         </div>
       </div>
-      <div class="charter">
-        <div class="charter-head"><span>Charter</span><span>Rev. 2026</span></div>
-        <div class="charter-row"><span>Role</span><span>Technical Project Manager</span></div>
-        <div class="charter-row"><span>Client</span><span>Bank of America</span></div>
-        <div class="charter-row"><span>Base</span><span>Charlotte, NC</span></div>
-        <div class="charter-row"><span>Focus</span><span>Fintech, Banking, Credit Risk</span></div>
-        <div class="charter-row"><span>Education</span><span>M.S. Business Analytics, UNT</span></div>
-        <div class="charter-row"><span>Status</span><span class="status-live">Active</span></div>
+
+      <div class="kanban-shell">
+        <div class="kanban-head">
+          <span class="kh-title">SPRINT 24 · BANKING PLATFORM</span>
+          <div class="kh-dots"><span></span><span></span><span></span></div>
+        </div>
+        <div class="kanban">
+          <div class="kcol">
+            <div class="kcol-head">Backlog <span class="kcount">3</span></div>
+            <div class="kcard" style="animation-delay:0.05s;"><span class="ktag tag-c">RISK</span>Vendor compliance review</div>
+            <div class="kcard" style="animation-delay:0.15s;"><span class="ktag tag-a">DATA</span>Q3 metrics dashboard</div>
+            <div class="kcard" style="animation-delay:0.25s;">Backlog grooming w/ eng</div>
+          </div>
+          <div class="kcol">
+            <div class="kcol-head">In Progress <span class="kcount">2</span></div>
+            <div class="kcard" style="animation-delay:0.35s;"><span class="ktag tag-b">AGILE</span>Sprint planning — Fintech app</div>
+            <div class="kcard" style="animation-delay:0.45s;"><span class="ktag tag-a">DATA</span>Credit risk model review</div>
+          </div>
+          <div class="kcol">
+            <div class="kcol-head">Shipped <span class="kcount">4</span></div>
+            <div class="kcard done" style="animation-delay:0.55s;"><span class="kcheck">✓</span>Stakeholder sign-off</div>
+            <div class="kcard done" style="animation-delay:0.65s;"><span class="kcheck">✓</span>UAT complete</div>
+            <div class="kcard done" style="animation-delay:0.75s;"><span class="kcheck">✓</span>Release notes</div>
+          </div>
+        </div>
+        <div class="kanban-foot">
+          <div class="kf-row"><span>Sprint progress</span><span>72%</span></div>
+          <div class="kf-bar"><div class="kf-fill" id="kfFill"></div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -341,24 +364,28 @@
 
 <section id="about">
   <div class="wrap">
-    <div class="about-grid">
-      <div class="reveal">
-        <div class="eyebrow">About</div>
-        <h2 style="margin:14px 0 24px;">Business thinking, delivered like engineering</h2>
-        <p>My path runs <strong>Business Analyst → Business Specialist → Business Analyst / Product Owner → Technical Project Manager</strong>, across RealPage, Mastercard, and Bank of America. That path means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.</p>
-        <p>A <strong>Master's in Business Analytics from the University of North Texas</strong> keeps my approach grounded in evidence rather than guesswork. In practice that means end-to-end <strong>Agile/Scrum &amp; SAFe</strong> delivery from backlog grooming to release, cross-functional stakeholder management across engineering, compliance, and business teams in regulated <strong>fintech and banking</strong> environments, and a data analytics lens on prioritization and <strong>credit risk</strong>.</p>
-        <p>Before any of that, I founded <strong>Crave International</strong>, an events and startup-incubation venture in Hyderabad — my first real lesson in owning a program end-to-end, negotiating with vendors, and keeping a cross-functional team pointed at one deadline. I've also stayed close to the entrepreneurship and public-service side of business, including strategy work with a state-run innovation initiative and a central-government-affiliated MSME chapter, helping early-stage teams go from idea to funded product.</p>
+    <div class="sec-head reveal">
+      <span class="eyebrow">About</span>
+      <h2>Business thinking, run like engineering</h2>
+    </div>
+    <div class="bento reveal">
+      <div class="bento-card bento-bio">
+        <p>My path runs <strong>Business Analyst → Business Specialist → Business Analyst / Product Owner → Technical Project Manager</strong>, across RealPage, Mastercard, and Bank of America. That means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.</p>
+        <p>A <strong>Master's in Business Analytics from the University of North Texas</strong> keeps my approach grounded in evidence rather than guesswork. Day to day, that's end-to-end <strong>Agile/Scrum &amp; SAFe</strong> delivery, cross-functional stakeholder management across engineering, compliance, and business teams in regulated <strong>fintech and banking</strong> environments, and a data analytics lens on prioritization and <strong>credit risk</strong>.</p>
+        <p>Before any of that, I founded <strong>Crave International</strong>, an events and startup-incubation venture in Hyderabad — my first lesson in owning a program end-to-end. I've also stayed close to the entrepreneurship and public-service side of business, including strategy work with a state-run innovation initiative and a central-government-affiliated MSME chapter.</p>
       </div>
-      <div class="side-panel reveal">
-        <div class="panel-title">Currently</div>
-        <div class="panel-body">
-          <div class="fact"><span>Role</span><span>Technical Project Manager</span></div>
-          <div class="fact"><span>Company</span><span>Bank of America</span></div>
-          <div class="fact"><span>Started</span><span>Jan 2026</span></div>
-          <div class="fact"><span>Focus</span><span>SAFe/Agile, fintech &amp; banking</span></div>
-          <div class="fact"><span>Prior track</span><span>BA / Product Owner</span></div>
-          <div class="fact"><span>Open to</span><span>PM &amp; PO conversations</span></div>
-        </div>
+      <div class="bento-card">
+        <h3>Currently</h3>
+        <div class="fact-row"><span>Role</span><span>Technical Project Manager</span></div>
+        <div class="fact-row"><span>Company</span><span>Bank of America</span></div>
+        <div class="fact-row"><span>Since</span><span>Jan 2026</span></div>
+        <div class="fact-row"><span>Status</span><span class="status-chip"><span class="dot2"></span>Active</span></div>
+      </div>
+      <div class="bento-card">
+        <h3>Focus</h3>
+        <div class="fact-row"><span>Domain</span><span>Fintech &amp; Banking</span></div>
+        <div class="fact-row"><span>Risk lens</span><span>Credit Risk Mgmt</span></div>
+        <div class="fact-row"><span>Method</span><span>SAFe / Agile</span></div>
       </div>
     </div>
   </div>
@@ -367,56 +394,65 @@
 <section id="timeline">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="eyebrow">Career, Charted</div>
-      <h2>Six years, plotted like a project</h2>
-      <p>Every role laid out the way I'd lay out any delivery — start date, duration, and what it fed into next.</p>
+      <span class="eyebrow">Career</span>
+      <h2>Six years, one continuous thread</h2>
+      <p>Every role built on the last — from reading the data, to owning the backlog, to running the whole delivery.</p>
     </div>
 
-    <div class="gantt reveal">
-      <div class="gantt-scroll">
-        <div class="gantt-inner">
+    <div class="tl reveal">
+      <div class="tl-line"><div class="tl-line-fill" id="tlFill"></div></div>
 
-          <div class="gantt-axis" style="height:16px;">
-            <span style="left:0%;">2019</span>
-            <span style="left:13.2%;">2020</span>
-            <span style="left:26.4%;">2021</span>
-            <span style="left:39.6%;">2022</span>
-            <span style="left:52.7%;">2023</span>
-            <span style="left:65.9%;">2024</span>
-            <span style="left:79.1%;">2025</span>
-            <span style="left:92.3%;">2026</span>
-          </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">MAR 2019 — JUL 2020</div>
+          <div class="tl-role">Business Analyst</div>
+          <div class="tl-co">RealPage</div>
+        </div>
+      </div>
 
-          <div class="gantt-row">
-            <div class="gantt-label"><span class="role">Business Analyst <span class="co">— RealPage</span></span><span class="dates">Mar 2019 – Jul 2020</span></div>
-            <div class="gantt-track"><div class="gantt-bar" style="left:2.2%; width:17.6%;"></div></div>
-          </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">AUG 2020 — AUG 2021</div>
+          <div class="tl-role">Business Specialist</div>
+          <div class="tl-co">RealPage</div>
+        </div>
+      </div>
 
-          <div class="gantt-row">
-            <div class="gantt-label"><span class="role">Business Specialist <span class="co">— RealPage</span></span><span class="dates">Aug 2020 – Aug 2021</span></div>
-            <div class="gantt-track"><div class="gantt-bar" style="left:20.9%; width:13.2%;"></div></div>
-          </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">AUG 2021 — MAY 2023</div>
+          <div class="tl-role">M.S. Business Analytics</div>
+          <div class="tl-co">University of North Texas</div>
+        </div>
+      </div>
 
-          <div class="gantt-row">
-            <div class="gantt-label"><span class="role">M.S. Business Analytics <span class="co">— University of North Texas</span></span><span class="dates">Aug 2021 – May 2023</span></div>
-            <div class="gantt-track"><div class="gantt-bar" style="left:34.1%; width:23.1%;"></div></div>
-          </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">JUN 2023 — JUL 2024</div>
+          <div class="tl-role">Business Analyst / Product Owner</div>
+          <div class="tl-co">Mastercard</div>
+        </div>
+      </div>
 
-          <div class="gantt-row">
-            <div class="gantt-label"><span class="role">Business Analyst / Product Owner <span class="co">— Mastercard</span></span><span class="dates">Jun 2023 – Jul 2024</span></div>
-            <div class="gantt-track"><div class="gantt-bar" style="left:58.2%; width:14.3%;"></div></div>
-          </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">AUG 2024 — DEC 2025</div>
+          <div class="tl-role">Business Analyst / Product Owner</div>
+          <div class="tl-co">Bank of America</div>
+        </div>
+      </div>
 
-          <div class="gantt-row">
-            <div class="gantt-label"><span class="role">Business Analyst / Product Owner <span class="co">— Bank of America</span></span><span class="dates">Aug 2024 – Dec 2025</span></div>
-            <div class="gantt-track"><div class="gantt-bar" style="left:73.6%; width:17.6%;"></div></div>
-          </div>
-
-          <div class="gantt-row">
-            <div class="gantt-label"><span class="role">Technical Project Manager <span class="co">— Bank of America</span></span><span class="dates">Jan 2026 – Present</span></div>
-            <div class="gantt-track"><div class="gantt-bar current" style="left:92.3%; width:7.7%;"></div></div>
-          </div>
-
+      <div class="tl-item current">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">JAN 2026 — PRESENT</div>
+          <div class="tl-role">Technical Project Manager</div>
+          <div class="tl-co">Bank of America</div>
         </div>
       </div>
     </div>
@@ -426,28 +462,28 @@
 <section id="skills">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="eyebrow">Toolkit</div>
+      <span class="eyebrow">Toolkit</span>
       <h2>What I run projects with</h2>
     </div>
-    <div class="skill-groups reveal">
-      <div class="skill-group">
+    <div class="skill-bento reveal">
+      <div class="skill-card">
         <h3>Delivery &amp; Methodology</h3>
-        <div class="chip-list">
-          <span class="chip">Agile</span><span class="chip">Scrum</span><span class="chip">SAFe</span>
-          <span class="chip">Backlog Prioritization</span><span class="chip">Stakeholder Management</span><span class="chip">Process Improvement Projects</span>
+        <div class="pill-list">
+          <span class="pill">Agile</span><span class="pill">Scrum</span><span class="pill">SAFe</span>
+          <span class="pill">Backlog Prioritization</span><span class="pill">Stakeholder Management</span><span class="pill">Process Improvement</span>
         </div>
       </div>
-      <div class="skill-group">
+      <div class="skill-card">
         <h3>Data &amp; Analytics</h3>
-        <div class="chip-list">
-          <span class="chip">SQL</span><span class="chip">Data Analytics</span><span class="chip">Python</span>
-          <span class="chip">Tableau</span><span class="chip">Requirements Analysis</span>
+        <div class="pill-list">
+          <span class="pill">SQL</span><span class="pill">Data Analytics</span><span class="pill">Python</span>
+          <span class="pill">Tableau</span><span class="pill">Requirements Analysis</span>
         </div>
       </div>
-      <div class="skill-group">
+      <div class="skill-card">
         <h3>Domain</h3>
-        <div class="chip-list">
-          <span class="chip">Fintech &amp; Banking</span><span class="chip">Credit Risk Management</span><span class="chip">Data-Driven Delivery</span>
+        <div class="pill-list">
+          <span class="pill">Fintech &amp; Banking</span><span class="pill">Credit Risk Management</span><span class="pill">Data-Driven Delivery</span>
         </div>
       </div>
     </div>
@@ -457,19 +493,15 @@
 <section id="certifications">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="eyebrow">Certifications</div>
-      <h2>Verified on LinkedIn Learning</h2>
-      <p>Each links out to the course page — swap in your personal "Show credential" links for direct-to-certificate access.</p>
+      <span class="eyebrow">Certifications</span>
+      <h2>22 certifications, five practice areas</h2>
     </div>
-    <div class="cert-panel reveal">
-      <p class="cert-para">I hold 22 certifications spanning five areas of practice: project-management fundamentals (including the PMBOK&reg; 7th Edition), Agile &amp; delivery, risk/resourcing/stakeholder management, leadership &amp; communication, and analytics/cloud credentials from AWS and MBTN Academy. Together they back up the day-to-day of running technical projects in regulated environments &mdash; planning, delivery, risk, and the people side of the work.</p>
-
-      <div class="cert-icon-row">
-        <a class="icon-badge" href="https://www.linkedin.com/in/vinay-vuppala/details/certifications/" aria-label="View all certificates on LinkedIn">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7 3.582 7 8 7Z"></path><path d="m8.5 13.5-2 7.5 5.5-3 5.5 3-2-7.5"></path></svg>
-          <span>Certificates</span>
-        </a>
-      </div>
+    <div class="cert-card reveal">
+      <p>Spanning project-management fundamentals (including the PMBOK&reg; 7th Edition), Agile &amp; delivery, risk/resourcing/stakeholder management, leadership &amp; communication, and analytics/cloud credentials from AWS and MBTN Academy — together backing up the day-to-day of running technical projects in regulated environments.</p>
+      <a class="cert-badge" href="https://www.linkedin.com/in/vinay-vuppala/details/certifications/">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7 3.582 7 8 7Z"/><path d="m8.5 13.5-2 7.5 5.5-3 5.5 3-2-7.5"/></svg>
+        View all certificates
+      </a>
     </div>
   </div>
 </section>
@@ -477,83 +509,68 @@
 <section id="projects">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="eyebrow">Selected Work</div>
+      <span class="eyebrow">Selected Work</span>
       <h2>Projects that show the thinking</h2>
-      <p>A mix of analytical and hands-on program work — the two halves of how I approach delivery.</p>
     </div>
 
     <div class="proj-grid reveal">
-
       <div class="proj-card">
-        <div class="proj-top"><h3>Project KIVA</h3><span class="proj-num">01</span></div>
-        <div class="spec-table">
-          <div class="spec-row"><b>Method</b><span>Classification modeling, Tableau diagnostics</span></div>
-          <div class="spec-row"><b>Outcome</b><span>Loan-funding predictions from micro-lending data</span></div>
-        </div>
-        <p class="desc">Led requirements analysis and predictive modeling on the Kiva.org micro-lending dataset, building classification models to forecast funding outcomes and running descriptive/diagnostic analysis to surface insights for stakeholders.</p>
-        <a class="proj-link" href="https://github.com/vvinay17/Project_KIVA">View repository →</a>
+        <div class="proj-top"><h3>Project KIVA</h3><span class="proj-idx">01</span></div>
+        <p class="desc">Led requirements analysis and predictive modeling on the Kiva.org micro-lending dataset — building classification models to forecast funding outcomes and running descriptive/diagnostic analysis in Tableau to surface insights for stakeholders.</p>
+        <div class="proj-tags"><span class="proj-tag">Predictive Modeling</span><span class="proj-tag">Tableau</span></div>
+        <a class="proj-link" href="https://github.com/vvinay17/Project_KIVA">View repository <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
 
       <div class="proj-card">
-        <div class="proj-top"><h3>Crave International</h3><span class="proj-num">02</span></div>
-        <div class="spec-table">
-          <div class="spec-row"><b>Method</b><span>Requirements gathering, stakeholder communication</span></div>
-          <div class="spec-row"><b>Outcome</b><span>Structured site: services, events, contact/lead capture</span></div>
-        </div>
-        <p class="desc">Worked directly with the founders of Crave International, to understand their business requirements with target users. Translated those needs into a structured their business neeeds, scaled and provided technical support for their growth and client acquisition goals. Involved requirements gathering, stakeholder communication, and structuring information around business priorities — foundational skills for business analysis.</p>
-        <a class="proj-link" href="https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL">View repository →</a>
+        <div class="proj-top"><h3>Crave International</h3><span class="proj-idx">02</span></div>
+        <p class="desc">Worked directly with the founders of Crave International to understand their business requirements and target users. Translated those needs into scaled technical support for their growth and client acquisition goals — involving requirements gathering, stakeholder communication, and structuring information around business priorities, foundational skills for business analysis.</p>
+        <div class="proj-tags"><span class="proj-tag">Requirements Gathering</span><span class="proj-tag">Business Analysis</span></div>
+        <a class="proj-link" href="https://github.com/vvinay17/Project_CRAVE_INTERNATIONAL">View repository <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
 
       <div class="proj-card">
-        <div class="proj-top"><h3>Predictive Modeling Project</h3><span class="proj-num">03</span></div>
-        <div class="spec-table">
-          <div class="spec-row"><b>Method</b><span>Classification &amp; regression, Python</span></div>
-          <div class="spec-row"><b>Outcome</b><span>Model evaluation framework for business datasets</span></div>
-        </div>
+        <div class="proj-top"><h3>Predictive Modeling Project</h3><span class="proj-idx">03</span></div>
         <p class="desc">Applied classification and regression techniques to real-world datasets, from data preparation through model evaluation — the same analytical foundation I use to turn raw data into a business decision.</p>
-        <a class="proj-link" href="https://github.com/vvinay17/PythonProject">View repository →</a>
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Data Analytics</span></div>
+        <a class="proj-link" href="https://github.com/vvinay17/PythonProject">View repository <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
 
       <div class="proj-card">
-        <div class="proj-top"><h3>This Portfolio</h3><span class="proj-num">04</span></div>
-        <div class="spec-table">
-          <div class="spec-row"><b>Method</b><span>Static site, GitHub Pages</span></div>
-          <div class="spec-row"><b>Outcome</b><span>A living, maintained record of the work above</span></div>
-        </div>
+        <div class="proj-top"><h3>This Portfolio</h3><span class="proj-idx">04</span></div>
         <p class="desc">The page you're on — a small, ongoing project in its own right, kept current alongside everything else I ship.</p>
-        <a class="proj-link" href="https://github.com/vvinay17/VuppalaVinay.github.io">View repository →</a>
+        <div class="proj-tags"><span class="proj-tag">GitHub Pages</span></div>
+        <a class="proj-link" href="https://github.com/vvinay17/VuppalaVinay.github.io">View repository <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
-
     </div>
   </div>
 </section>
 
 <footer id="contact">
-  <div class="wrap">
-    <div class="footer-grid reveal">
-      <div>
-        <div class="eyebrow">Contact</div>
-        <h2>Let's build something on schedule.</h2>
-        <div class="footer-links">
-          <a class="btn btn-primary" href="mailto:vvinay.tmp@gmail.com">Email me</a>
-          <a class="btn btn-ghost icon-btn" href="tel:+19403544116" aria-label="Call Vinay">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"></path></svg>
-            <span>Call</span>
-          </a>
-          <a class="btn btn-ghost" href="https://www.linkedin.com/in/vinay-vuppala">LinkedIn</a>
-          <a class="btn btn-ghost" href="https://github.com/vvinay17">GitHub</a>
-        </div>
-      </div>
+  <div class="foot-glow"></div>
+  <div class="foot-inner">
+    <span class="eyebrow" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.14); color:#fff;"><span class="pulse"></span>Let's talk</span>
+    <h2>Let's build something on schedule.</h2>
+    <div class="foot-links">
+      <a class="foot-btn foot-btn-primary" href="mailto:vvinay.tmp@gmail.com">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg>
+        Email me
+      </a>
+      <a class="foot-btn foot-btn-ghost" href="tel:+19403544116" aria-label="Call Vinay">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        Call
+      </a>
+      <a class="foot-btn foot-btn-ghost" href="https://www.linkedin.com/in/vinay-vuppala">LinkedIn</a>
+      <a class="foot-btn foot-btn-ghost" href="https://github.com/vvinay17">GitHub</a>
+      <a class="foot-btn foot-btn-ghost" href="https://www.linkedin.com/in/vinay-vuppala/details/certifications/">Certificates</a>
     </div>
     <div class="foot-fine">
-      <span>Vinay Vuppala — Technical Project Manager, Product Owner &amp; Business Analyst</span>
+      <span>Vinay Vuppala — Technical Project Manager</span>
       <span>Charlotte, NC</span>
     </div>
   </div>
 </footer>
 
 <script>
-  // Mobile nav toggle
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
   navToggle.addEventListener('click', () => {
@@ -565,28 +582,34 @@
     navToggle.setAttribute('aria-expanded', 'false');
   }));
 
-  // Scroll reveal
-  const revealEls = document.querySelectorAll('.reveal');
-  const ganttRows = document.querySelectorAll('.gantt-row');
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => {
-      if(e.isIntersecting){
-        e.target.classList.add('in');
-        io.unobserve(e.target);
-      }
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
     });
   }, {threshold:0.15});
-  revealEls.forEach(el => io.observe(el));
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
-  const gio = new IntersectionObserver((entries) => {
+  const tlItems = document.querySelectorAll('.tl-item');
+  const tio = new IntersectionObserver((entries) => {
     entries.forEach((e,i) => {
       if(e.isIntersecting){
         setTimeout(() => e.target.classList.add('in'), i * 90);
-        gio.unobserve(e.target);
+        tio.unobserve(e.target);
       }
     });
-  }, {threshold:0.3});
-  ganttRows.forEach(el => gio.observe(el));
+  }, {threshold:0.4});
+  tlItems.forEach(el => tio.observe(el));
+
+  const tlFillIO = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if(e.isIntersecting){ document.getElementById('tlFill').classList.add('in'); tlFillIO.disconnect(); }
+    });
+  }, {threshold:0.2});
+  tlFillIO.observe(document.querySelector('.tl'));
+
+  window.addEventListener('load', () => {
+    setTimeout(() => document.getElementById('kfFill').classList.add('in'), 900);
+  });
 </script>
 
 </body>
