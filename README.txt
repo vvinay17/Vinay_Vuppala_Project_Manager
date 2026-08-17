@@ -102,15 +102,15 @@ Education:   M.S. Business Analytics
 
 ### 🎓 Certifications
 
-| Certification | Provider |
-|---|---|
-| [Strategic Project Risk Management](https://www.linkedin.com/learning/strategic-project-risk-management) | LinkedIn Learning |
-| [Leading without Formal Authority](https://www.linkedin.com/learning/leading-without-formal-authority) | LinkedIn Learning |
-| [Project Resource Management](https://www.linkedin.com/learning/project-resource-management) | LinkedIn Learning |
-| [Agile Project Management with Jira Cloud: 1 Projects, Boards, and Issues](https://www.linkedin.com/learning/agile-project-management-with-jira-cloud-1-projects-boards-and-issues) | LinkedIn Learning |
-| [Project Management Foundations](https://www.linkedin.com/learning/project-management-foundations-15528659) | LinkedIn Learning |
+I hold 22 certifications spanning five areas of practice: project-management fundamentals (including the PMBOK® 7th Edition), Agile & delivery, risk/resourcing/stakeholder management, leadership & communication, and analytics/cloud credentials from AWS and MBTN Academy. Together they back up the day-to-day of running technical projects in regulated environments — planning, delivery, risk, and the people side of the work.
 
-> *Links above go to the public course pages. Swap in your personal "Show credential" URLs (from the Licenses & Certifications section of your LinkedIn profile) if you'd like these to point straight to your verified certificates instead.*
+<div align="center">
+
+<a href="https://www.linkedin.com/in/vinay-vuppala/details/certifications/">
+  <img src="https://img.shields.io/badge/Certificates-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</div>
 
 ---
 
@@ -185,7 +185,7 @@ A showcase of my project history and professional background, built and maintain
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="tel:+19403544116">
-  <img src="https://img.shields.io/badge/Phone-%2B1%20(940)%20354--4116-2E9EF7?style=for-the-badge&logo=phone&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Phone-2E9EF7?style=for-the-badge&logo=phone&logoColor=white"/>
 </a>
 <a href="https://vvinay17.github.io/">
   <img src="https://img.shields.io/badge/Portfolio-2E9EF7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
