@@ -73,7 +73,7 @@ Owned backlog prioritization and stakeholder workshops across Mastercard's globa
 **`AUG 2021 → MAY 2023`** &nbsp;·&nbsp; **M.S. Business Analytics** @ University of North Texas
 Built the analytical foundation — evidence over guesswork — that underlies every role since.
 
-**`MAR 2019 → AUG 2021`** &nbsp;·&nbsp; **Business Specialist** @ RealPage
+**`MAR 2018 → AUG 2021`** &nbsp;·&nbsp; **Business Specialist** @ RealPage
 Closed recurring process gaps with SQL/Excel-driven insight, tracked budgets and dependencies, and mentored new hires on requirements gathering.
 
 ---
