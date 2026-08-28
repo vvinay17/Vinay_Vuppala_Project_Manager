@@ -20,7 +20,7 @@
 
 ### 👋 About Me
 
-I'm a **Technical Project Manager** with **6+ years of experience** across Business Specialist, Business Analyst/Product Owner, and Technical Project Manager roles at organizations like RealPage, Mastercard, and Bank of America. That path means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.
+I'm a **Technical Project Manager** with **7+ years of experience** across Business Specialist, Business Analyst/Product Owner, and Technical Project Manager roles at organizations like RealPage, Mastercard, and Bank of America. That path means I don't just manage timelines — I understand the data behind the decisions, the backlog behind the roadmap, and the stakeholders behind the sign-off.
 
 I specialize in:
 
